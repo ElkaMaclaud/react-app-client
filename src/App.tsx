@@ -40,7 +40,7 @@ function AppComponent() {
         </React.StrictMode>
     );
 }
-export  const App =() => <AppComponent />;
+export const App =() => <AppComponent />;
 
 //export  const App = hot(AppComponent);
 
