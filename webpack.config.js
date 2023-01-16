@@ -17,7 +17,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'] 
     },
     mode: NODE_ENV ? NODE_ENV : 'development',
-    entry: path.resolve(__dirname, 'src/index.jsx'),
+    entry: path.resolve(__dirname, 'src/index.js'),
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'index.js'
