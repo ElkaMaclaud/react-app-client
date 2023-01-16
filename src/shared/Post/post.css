@@ -1,0 +1,22 @@
+.modal {
+    box-shadow: 0in;
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: #fff;
+}
+@media all and (min-width: 1540px) {
+    .modal {
+        box-shadow: 0in;
+        padding: 20px;
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 10%;
+        right: 25%;
+        background-color: #fff;
+    }
+}

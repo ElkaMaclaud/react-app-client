@@ -18,7 +18,7 @@ export function useUserData() {
     })
     .then((resp) => {
       const userData = resp.data;
-      setData({ name: userData.account.name, iconImg: userData.account.profileImg });
+      setData({ name: userData.name, iconImg: userData.profileImg });
 
     })
     .catch(function(error) {

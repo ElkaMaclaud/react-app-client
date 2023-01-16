@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-flow: column;
+}
+.input {
+    padding: 15px;
+    width: 100%;
+   }
+.input[aria-invalid] {
+    border-color: red;
+}
+/* .input:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+} */
+.button {
+    width: 30%;
+    background-color:  coral;
+    padding: 20px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+/* .button:hover {
+    background-color:  rgb(179, 103, 76);
+} */
+.button:active {
+    transform: translateY(-2px);
+    border: solid 1px #0e0809;
+}
+.button:disabled {
+    opacity: .5;
+    cursor: default;
+}
