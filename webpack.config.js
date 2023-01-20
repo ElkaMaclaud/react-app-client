@@ -4,7 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 const NODE_ENV = process.env.NODE_ENV;
 const IS_DEV = NODE_ENV === 'development';
-const IS_PROD = NODE_ENV === 'producnion'; 
+const IS_PROD = NODE_ENV === 'production'; 
 const GLOBAL_CSS_REGEXP = /\.global.css/;
 
 function setupDevtool() {
